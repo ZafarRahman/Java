@@ -1,0 +1,20 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Ferhenheittocelcius
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		float temperature;
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Enter temp in Ferhenheit");
+		temperature = s.nextInt();
+		
+		temperature = ((temperature-32)*5)/9;
+		
+		System.out.print("temp in Celsius = " + temperature);
+	}
+}
