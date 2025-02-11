@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Integer {
+
+
+    public static void main(String[] args)
+    {
+        /* code */
+
+        int c;
+
+        for (c = 1; c <= 10; c++)
+        {
+            System.out.print(c);
+
+        }
+
+    }
+}
